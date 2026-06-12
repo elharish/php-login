@@ -1,37 +1,22 @@
 # ============================================
-#  AuthPortal — .gitignore
+#  PHP Login Site — .gitignore
 # ============================================
 
 # ----- Sensitive / Credentials -----
-config/database.php      # Contains DB credentials — never commit this!
+config/database.php
 .env
-.env.*
-*.secret
 
-# ----- PHP -----
+# ----- PHP Dependencies -----
 vendor/
-composer.lock
 
 # ----- Logs & Uploads -----
-logs/
 *.log
 uploads/
-tmp/
 
 # ----- OS Files -----
 .DS_Store
 Thumbs.db
-desktop.ini
 
 # ----- IDE / Editor -----
 .vscode/
 .idea/
-*.sublime-workspace
-*.sublime-project
-nbproject/
-.project
-.buildpath
-
-# ----- XAMPP / Server -----
-error_log
-php_errorlog
