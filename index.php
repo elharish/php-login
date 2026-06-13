@@ -139,7 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
             </svg>
         </div>
-        <h1 class="brand-name">Portal Loginn</h1>
+        <h1 class="brand-name">Portal Login</h1>
         <p class="brand-tagline">Secure &amp; Simple Authentication</p>
     </div>
 
